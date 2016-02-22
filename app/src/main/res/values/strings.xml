@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ideal</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="yogurtland_instructions">"No purchase necessary! Show coupon on your mobile device to cashier at checkout.\n\n""EXPIRES 2/28/2016"
+    </string>
+    <string name="bjs_instructions">"Buy one lunch entree and get one free between 11AM to 3PM!\n\n""Only one use per table. Show coupon on your mobile device to the server.\n\n"EXPIRES 2/24/2016"
+    </string>
+    <string name="viewmaster_description">"The View-Master Virtual Reality viewer is your portal to immersive, virtual reality adventures that will transport you around the world and beyond.\n\n""Also works with Google Cardboard! Download VR apps from Google Play and put your phone into the viewer for a fun virtual reality experience.\n\n""Order online and pick it up for free at Walmart."
+    </string>
+    <string name="title_activity_deals">Deals</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_yogurtland">Yogurtland</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_bjs">BJs</string>
+    <string name="title_activity_view_master">ViewMaster</string>
+</resources>
