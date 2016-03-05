@@ -1,11 +1,15 @@
 package com.melanie.ideal;
 
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.Window;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
 import com.example.melanie.ideal.R;
 
@@ -16,11 +20,18 @@ public class Deals extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_deals);
 
+        LinearLayout titlebar_ll = (LinearLayout) findViewById(R.id.ideal_titlebar);
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.titlebar);
+
+        /*
         //Action Bar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Deals");
+        getSupportActionBar().setTitle("Ideal");
+        */
 
+        //Deals
         ImageButton yogurtland = (ImageButton) findViewById(R.id.yogurtland);
         yogurtland.setOnClickListener(new View.OnClickListener() {
             @Override
