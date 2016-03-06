@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.melanie.ideal.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="184dp"
+        android:layout_height="75dp"
+        android:layout_margin="32dp"
+        android:src="@drawable/mainheader"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/browsebutton"
+        android:scaleType="fitCenter"
+        android:src="@drawable/browse"
+        android:layout_below="@+id/header"
+        android:background="@android:color/transparent"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="111dp"
+        android:layout_alignTop="@+id/browsebutton"
+        android:layout_alignStart="@+id/browsebutton">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/clothesbutton"
+            android:src="@drawable/clothes"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
