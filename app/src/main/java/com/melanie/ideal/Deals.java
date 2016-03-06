@@ -24,13 +24,6 @@ public class Deals extends AppCompatActivity {
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.titlebar);
 
-        /*
-        //Action Bar
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Ideal");
-        */
-
         //Deals
         ImageButton yogurtland = (ImageButton) findViewById(R.id.yogurtland);
         yogurtland.setOnClickListener(new View.OnClickListener() {

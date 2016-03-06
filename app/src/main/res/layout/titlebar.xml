@@ -12,7 +12,6 @@
         android:id="@+id/header"
         android:background="@drawable/title"
         android:adjustViewBounds="true"
-        android:gravity="center_vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
