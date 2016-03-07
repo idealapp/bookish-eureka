@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         electronics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Deals.class));
+                startActivity(new Intent(MainActivity.this, Electronics.class));
             }
         });
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         entertainment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Deals.class));
+                startActivity(new Intent(MainActivity.this, Entertainment.class));
             }
         });
 

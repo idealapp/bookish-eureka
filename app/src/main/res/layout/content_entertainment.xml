@@ -11,20 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="com.melanie.ideal.Deals"
-        tools:showIn="@layout/activity_deals">
+        tools:context="com.melanie.ideal.Entertainment"
+        tools:showIn="@layout/activity_entertainment">
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
-            <ImageButton
-                android:id="@+id/peets"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/peetspreview"
-                style="?android:attr/borderlessButtonStyle"/>
 
             <ImageButton
                 android:id="@+id/redbox"
@@ -32,16 +24,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
                 android:src="@drawable/redboxpreview"
-                android:layout_below="@id/peets"
-                style="?android:attr/borderlessButtonStyle"/>
-
-            <ImageButton
-                android:id="@+id/viewmaster"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/viewmaster"
-                android:layout_below="@id/redbox"
                 style="?android:attr/borderlessButtonStyle"/>
         </RelativeLayout>
 

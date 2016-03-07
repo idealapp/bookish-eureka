@@ -27,4 +27,6 @@
     <string name="title_activity_food">Food</string>
     <string name="title_activity_peets">Peets</string>
     <string name="title_activity_redbox">Redbox</string>
+    <string name="title_activity_entertainment">Entertainment</string>
+    <string name="title_activity_electronics">Electronics</string>
 </resources>
