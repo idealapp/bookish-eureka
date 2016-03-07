@@ -25,29 +25,20 @@ public class Deals extends AppCompatActivity {
         getSupportActionBar().setCustomView(R.layout.titlebar);
 
         //Deals
-        ImageButton yogurtland = (ImageButton) findViewById(R.id.yogurtland);
-        yogurtland.setOnClickListener(new View.OnClickListener() {
+        ImageButton peets = (ImageButton) findViewById(R.id.peets);
+        peets.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Deals.this, Yogurtland.class));
+                startActivity(new Intent(Deals.this, Peets.class));
             }
         });
 
-        ImageButton bjs = (ImageButton) findViewById(R.id.bjs);
-        bjs.setOnClickListener(new View.OnClickListener() {
+        ImageButton redbox = (ImageButton) findViewById(R.id.redbox);
+        redbox.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Deals.this, BJs.class));
+                startActivity(new Intent(Deals.this,Redbox.class));
             }
         });
-
-        ImageButton viewmaster = (ImageButton) findViewById(R.id.viewmaster);
-        viewmaster.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Deals.this, ViewMaster.class));
-            }
-        });
-
     }
 }

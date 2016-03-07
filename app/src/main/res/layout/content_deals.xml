@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <android.support.v4.widget.NestedScrollView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -20,32 +19,21 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:id="@+id/yogurtland"
+                android:id="@+id/peets"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/yogurtland"
+                android:src="@drawable/peetspreview"
                 style="?android:attr/borderlessButtonStyle"/>
 
             <ImageButton
-                android:id="@+id/bjs"
+                android:id="@+id/redbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/bjspreview"
-                android:layout_below="@id/yogurtland"
+                android:src="@drawable/redboxpreview"
+                android:layout_below="@id/peets"
                 style="?android:attr/borderlessButtonStyle"/>
-
-            <ImageButton
-                android:id="@+id/viewmaster"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/viewmaster"
-                android:layout_below="@id/bjs"
-                style="?android:attr/borderlessButtonStyle"/>
-
-
         </RelativeLayout>
 
     </android.support.v4.widget.NestedScrollView>

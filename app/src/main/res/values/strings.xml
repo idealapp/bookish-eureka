@@ -4,6 +4,10 @@
     <string name="title_activity_main_page">MainPage</string>
     <string name="yogurtland_instructions">"No purchase necessary! Show coupon on your mobile device to cashier at checkout.\n\n""EXPIRES 2/28/2016"
     </string>
+    <string name="peets_instructions">"Expires on Wednesday, March 9th, 2016\n\n""Show coupon on your mobile device to the cashier at checkout."
+    </string>
+    <string name="redbox_instructions">"Rent a free movie at any Redbox!\n\n""1. Click the button below to text 'APPNOW' to 727-272 to receive a promo code for your free movie rental. \n\n2. Use the Redbox app or go on redbox.com to add a movie to your cart and select a nearby Redbox for pickup.\n\n3. Enter your promo code to rent the movie free of charge!"
+    </string>
     <string name="bjs_instructions">"Buy one lunch entree and get one free between 11AM to 3PM!\n\n""Only one use per table. Show coupon on your mobile device to the server.""EXPIRES 2/24/2016\n\n"
     </string>
     <string name="viewmaster_description">"The View-Master Virtual Reality viewer is your portal to immersive, virtual reality adventures that will transport you around the world and beyond.\n\n""Also works with Google Cardboard! Download VR apps from Google Play and put your phone into the viewer for a fun virtual reality experience.\n\n""Order online and pick it up for free at Walmart."
@@ -22,4 +26,5 @@
     <string name="title_activity_category">Category</string>
     <string name="title_activity_food">Food</string>
     <string name="title_activity_peets">Peets</string>
+    <string name="title_activity_redbox">Redbox</string>
 </resources>
