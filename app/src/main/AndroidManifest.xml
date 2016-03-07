@@ -18,9 +18,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name="com.melanie.ideal.Deals"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="com.melanie.ideal.Yogurtland"
             android:label="@string/title_activity_yogurtland"
@@ -35,15 +33,22 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.melanie.ideal.MainActivity"
-            android:label="@string/title_activity_main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity
+            android:name="com.melanie.ideal.Food"
+            android:label="@string/title_activity_food" />
+        <activity
+            android:name="com.melanie.ideal.Peets"
+            android:label="@string/title_activity_peets"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

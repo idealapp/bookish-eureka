@@ -34,7 +34,8 @@
         android:orientation="horizontal"
         android:layout_marginTop="111dp"
         android:layout_alignTop="@+id/browsebutton"
-        android:layout_alignStart="@+id/browsebutton">
+        android:layout_alignStart="@+id/browsebutton"
+        android:id="@+id/secondrow">
 
         <ImageButton
             android:layout_width="0dp"
@@ -44,7 +45,38 @@
             android:src="@drawable/clothes"
             android:background="@android:color/transparent" />
 
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/foodbutton"
+            android:src="@drawable/food"
+            android:background="@android:color/transparent" />
     </LinearLayout>
 
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/thirdrow"
+        android:layout_below="@+id/secondrow"
+        android:layout_alignStart="@+id/secondrow">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/electronicsbutton"
+            android:src="@drawable/electronics"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/entertainmentbutton"
+            android:src="@drawable/entertainment"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
 
 </RelativeLayout>

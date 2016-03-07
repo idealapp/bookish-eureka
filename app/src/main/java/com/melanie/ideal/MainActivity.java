@@ -28,6 +28,40 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Deals.class));
             }
         });
+
+        ImageButton clothes = (ImageButton) findViewById(R.id.clothesbutton);
+        clothes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Deals.class));
+            }
+        });
+
+        ImageButton food = (ImageButton) findViewById(R.id.foodbutton);
+        food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Food.class));
+            }
+        });
+
+        ImageButton electronics = (ImageButton) findViewById(R.id.electronicsbutton);
+        electronics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Deals.class));
+            }
+        });
+
+
+        ImageButton entertainment = (ImageButton) findViewById(R.id.entertainmentbutton);
+        entertainment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Deals.class));
+            }
+        });
+
     }
 
 }
