@@ -44,7 +44,7 @@
     <ImageView
         android:id="@+id/coupon"
         android:background="@android:color/black"
-        android:src="@drawable/peetscoupon"
+        android:src="@drawable/peetcoupon"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:visibility="invisible"

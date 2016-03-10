@@ -25,7 +25,7 @@ public class Peets extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 coupon.setVisibility(View.VISIBLE);
-                coupon.setImageResource(R.drawable.peetscoupon);
+                coupon.setImageResource(R.drawable.peetcoupon);
             }
         });
     }
